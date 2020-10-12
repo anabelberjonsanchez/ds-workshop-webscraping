@@ -28,6 +28,7 @@ cities
 year <- str_extract(cities, "\\d{4}")
 city <- str_extract(cities, "[[:alpha:] ]+") %>% str_trim
 country <- str_extract(cities, "[[:alpha:] ]+$") %>% str_trim
+
 year[1:10]
 city[1:10]
 country[1:10]
